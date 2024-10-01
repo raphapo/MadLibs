@@ -5,6 +5,8 @@ public class Madlibs{
         Scanner sc = new Scanner(System.in);
        
         String madlib1 = "I went to the animal <noun>, the <plural_noun> and the <number> beasts were there.";
+        //String madlib1 = "Once upon a time in a <adjective> land, a <noun> <adverb> grew.";
+        //String madlib1 = "a boy went to <noun> highschool, he liked <activity> very much and went back <location>";
 
         //first word
         int bracketStart1 = madlib1.indexOf("<");
